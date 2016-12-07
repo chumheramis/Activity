@@ -178,6 +178,14 @@ hr {
     padding-top: 9px;
     background-color:#d68d00;
 }
+#front-content .input-group .select2{
+    width: 95%;
+    margin-left: 28px;
+    margin-top: 3px;
+}
+#front-content .input-group .select2 .selection .select2-selection{
+    border: none;
+}
 #front-content .input-group .form-control {
     background-image: none;
     border: none;
@@ -261,7 +269,7 @@ hr {
 #footer {
     width: 100%;
     padding-top: 25px;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
 }
 #footer .logo{
     float:right;
@@ -337,10 +345,12 @@ hr {
 }
 
 
+.modal-header{
+    border-bottom: none !important;
+}
 
 
-
-.modal_review{
+.modal_review .modal-body{
 
 }
 .modal_review .modal-body .profile{
@@ -385,7 +395,7 @@ hr {
     border-bottom: 1px solid black;
 }
 .modal_review .modal-body{
-    padding-top: 20px;
+    padding-top: 0px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 0px;
