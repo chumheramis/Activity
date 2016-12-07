@@ -12,34 +12,30 @@
     src: url('../fonts/gotham-book.otf');
 }
 @font-face{
+    font-family: 'gotham-bold';
+    src: url('../fonts/gothem-bold.otf');
+}
+@font-face{
     font-family: 'gotham-book-italic';
     src: url('../fonts/gotham-book-italic.otf');
 }
-
-
 /* OVERALL ASPECT */
-
 body {
     background-color: #f2f2f2;
     font-family: "Lato";
     font-weight: 300;
     font-size: 16px;
     color: #555;
-
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
-
     margin-top: 70px;
 }
-
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway";
     font-weight: 300;
     color: #333;
 }
-
-
 /* Paragraph & Typographic */
 p {
     line-height: 28px;
@@ -200,9 +196,27 @@ hr {
     border: none;
     box-shadow: none;
     margin-left: 35px;
-    width: 90%;
+    width: 95%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: left;
 }
-
+#front-content .input-group .dropdown button{
+    color: #C5C5C5;
+}
+#front-content .input-group .dropdown .fa{
+    float: right;
+    margin-top: 4px;
+}
+#front-content .input-group .dropdown .dropdown-menu{
+    width: 100%;
+    margin-top: 15px;
+}
+#front-content .input-group .dropdown .dropdown-menu a{
+    font-family: 'gotham-bold';
+    font-size: 14px;
+    color: black;
+}
 #front-content #reviews{
     margin-top: -25px;
 }
