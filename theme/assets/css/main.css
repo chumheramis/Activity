@@ -91,3 +91,32 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
+
+
+.navbar {
+    font-weight: 800;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #ffffff;
+}
+.navbar .list-group {
+    margin-bottom: 0px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: #74cfae;
+}
+
+.navbar-brand {
+    font-size: 60px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+.navbar-brand b{
+    font-size: 15px;
+    font-weight: bolder;
+    margin-left: -15px;
+    color: #00367c;
+}
