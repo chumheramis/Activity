@@ -120,3 +120,139 @@ hr {
     margin-left: -15px;
     color: #00367c;
 }
+
+.btn-theme {
+    color: #ffffff;
+    background-color: #74cfae;
+    border-color: transparent;
+}
+
+.btn {
+    padding: 10px 30px;
+    margin-bottom: 0;
+    font-size: 18px;
+    border: 5px solid transparent;
+    border-radius: 0px;
+}
+
+.lead {
+    letter-spacing: 1px;
+}
+
+/* WRAP SECTIONS */
+
+/* front-content */
+#front-content {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url(../img/front-content-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#front-content h1 {
+    font-size: 42px;
+    color: #fff;
+    font-family: 'gotham-light';
+}
+
+#front-content h2 {
+    color: #fff;
+    font-size:30px;
+    font-family: 'gotham-medium';
+}
+#front-content h3{
+    color:#fff;
+    font-size: 20px;
+}
+#front-content a{
+    font-family: 'gotham-book';
+    color: #fff;
+}
+#front-content form{
+    margin-top: 50px;
+}
+#front-content form label{
+    color: #fff;
+    font-family: 'gotham-medium';
+    font-size: 18px;
+    font-weight: normal;
+}
+#front-content .input-group{
+    border-radius: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+#front-content .input-group > .badge {
+    position: absolute;
+    left: 11px;
+    top: 12px;
+    height: 30px;
+    width: 30px;
+    border-radius: 25px;
+    padding-top: 9px;
+    background-color:#d68d00;
+}
+#front-content .input-group .form-control {
+    background-image: none;
+    border: none;
+    box-shadow: none;
+    margin-left: 35px;
+    width: 90%;
+}
+
+#front-content #reviews{
+    margin-top: -25px;
+}
+#front-content #reviews h3{
+    font-family:'gotham-book';
+    padding-left: 50px;
+}
+#front-content #reviews .review-item{
+    background-color: transparent;
+    border: none;
+}
+#front-content #reviews .review-item .left h5{
+    font-size: 13px;
+    line-height: 5px;
+    color: #fff;
+}
+#front-content #reviews .review-item .left h6{
+    font-size: 11px;
+    line-height: 5px;
+    color: #fff;
+
+}
+#front-content #reviews .review-item .right .header-info{
+    float: left;
+}
+#front-content #reviews .review-item .right .header-info #category{
+    float:left;
+    margin-right: 30px;
+    color: #fff;
+}
+
+#front-content #reviews .review-item .right .header-info #ratings{
+    float: left;
+}
+#front-content #reviews .review-item .right .body-info{
+    float: left;
+}
+#front-content #reviews .review-item .right .body-info p{
+    font-family: 'gotham-book-italic';
+    font-size: 11px;
+    line-height: 13px;  
+    color: #fff;
+}
+#front-content #reviews .review-item .right .body-info a{
+    font-family: 'gotham-book';
+    color: #fbd243;
+    float: right;
+    margin-right: 25px;
+    font-size: 10px;
+}
+#front-content #reviews .review-item .right .body-info a img{
+    margin-top: -3px;
+}
