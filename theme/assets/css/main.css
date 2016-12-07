@@ -256,3 +256,60 @@ hr {
 #front-content #reviews .review-item .right .body-info a img{
     margin-top: -3px;
 }
+
+#footer {
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+#footer .logo{
+    float:right;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+@media screen and (max-width: 768px) {
+    #footer .logo{
+        float:none;
+    }
+}
+#footer i {
+    font-size: 50px;
+    color: #74cfae;
+}
+#footer .nav li a:hover{
+    background-color:transparent !important;
+}
+#footer .nav li a:after{
+    content: "";
+    display: block;
+    position: absolute;
+    right: -3px;
+    top: 19px;
+    height: 6px;
+    width: 6px;
+    background: #000;
+    opacity: .5;
+}
+#footer .nav li a:before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0;
+    background: #333333;
+}
+#footer .nav li.last > a:after,
+#footer .nav li:last-child > a:after {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+    #footer .nav li a:after{
+        display: none;
+    }
+    #footer .nav li a:before{
+        display: none;
+    }
+}
