@@ -49,7 +49,7 @@
 
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dLabel">
-                                    <li><a href="#">Family</a></li>
+                                    <li><a href="#" data-target="#category_family" data-toggle="modal">Family</a></li>
                                     <li><a href="#">Criminal Defense</a></li>
                                     <li><a href="#">Business</a></li>
                                     <li><a href="#">Personal Injury</a></li>
@@ -82,11 +82,16 @@
                                         <div class="header-info">
                                             <b id="category">Family Law</b>
                                             <div id="ratings">
-                                                <i class="glyphicon glyphicon-star" style="color:yellow"></i> <i class="glyphicon glyphicon-star" style="color:yellow"></i> <i class="glyphicon glyphicon-star" style="color:yellow"></i> <i class="glyphicon glyphicon-star" style="color:yellow"></i> <i class="glyphicon glyphicon-star" style="color:yellow"></i>
+                                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
                                             </div>
                                         </div>
                                         <div class="body-info">
-                                            <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et ... dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip”</p><a href="#">READ MORE <img alt="" src="assets/img/icon-book.png"></a>
+                                            <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et ... dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip”</p>
+                                            <a href="#"  data-target="#review_1" data-toggle="modal">READ MORE <img alt="" src="assets/img/icon-book.png"></a>
                                         </div>
                                     </div>
                                 </div>
@@ -104,11 +109,16 @@
                                         <div class="header-info">
                                             <b id="category">Family Law</b>
                                             <div id="ratings">
-                                                <i class="glyphicon glyphicon-star" style="color:yellow"></i> <i class="glyphicon glyphicon-star" style="color:yellow"></i> <i class="glyphicon glyphicon-star" style="color:yellow"></i> <i class="glyphicon glyphicon-star" style="color:yellow"></i> <i class="glyphicon glyphicon-star" style="color:yellow"></i>
+                                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
+                                                <i class="glyphicon glyphicon-star"></i>
                                             </div>
                                         </div>
                                         <div class="body-info">
-                                            <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et ... dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip”</p><a href="#">READ MORE <img alt="" src="assets/img/icon-book.png"></a>
+                                            <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et ... dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip”</p>
+                                            <a href="#"  data-target="#review_1" data-toggle="modal">READ MORE <img alt="" src="assets/img/icon-book.png"></a>
                                         </div>
                                     </div>
                                 </div>
@@ -126,11 +136,16 @@
                                         <div class="header-info">
                                             <b id="category">Family Law</b>
                                             <div id="ratings">
-                                                <i class="glyphicon glyphicon-star" style="color:yellow"></i> <i class="glyphicon glyphicon-star" style="color:yellow"></i> <i class="glyphicon glyphicon-star" style="color:yellow"></i> <i class="glyphicon glyphicon-star" style="color:yellow"></i> <i class="glyphicon glyphicon-star" style="color:yellow"></i>
+                                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                                <i class="glyphicon glyphicon-star ratings-on"></i>
                                             </div>
                                         </div>
                                         <div class="body-info">
-                                            <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et ... dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip”</p><a href="#">READ MORE <img alt="" src="assets/img/icon-book.png"></a>
+                                            <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et ... dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip”</p>
+                                            <a href="#"  data-target="#review_1" data-toggle="modal">READ MORE <img alt="" src="assets/img/icon-book.png"></a>
                                         </div>
                                     </div>
                                 </div>
@@ -177,12 +192,14 @@
 
     <!-- MODALS -->
     <!-- Modals -->
-    <div class="modal fade" id="other_categories" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal fade" id="other_categories" tabindex="-1" role="dialog" aria-labelledby="other_categories">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
                 <div class="modal-body">
-                    <h3>OTHER CATEGORIES</h3>
+                    <b>OTHER CATEGORIES</b>
                     <p>Choose the category that best fts your case</p>
                     <div class="row">
                         <div class="col-sm-6">
@@ -200,6 +217,215 @@
                             <a href="#">Nisultricies Dictumest.</a>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div><!--/#other_categories -->
+    <div class="modal fade" id="category_family" tabindex="-1" role="dialog" aria-labelledby="category_family">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+                <div class="modal-body">
+                    <b><span class="badge" style="background-color: rgb(214, 141, 0); height: 30px; width: 30px; border-radius: 25px; padding-top: 9px;">2</span>  Which Family law issue(s) apply to your case?</b>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="checkbox">
+                                <label><input type="checkbox"> Adoptions</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox"> Guardianship</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox"> Child Custody and Visitaion</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox"> Paternity</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="checkbox">
+                                <label><input type="checkbox"> Child Support</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox"> Separations</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox"> Divorce</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox"> Spousal Support or Alimony</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3"></div>
+                        <div class="col-md-6">
+                            <button type="button" class="btn btn-primary btn-lg btn-block">FIND A LAWYER NOW</button>
+                        </div>
+                        <div class="col-md-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--/#category_family -->
+
+    <div class="modal fade modal_review" id="review_1" tabindex="-1" role="dialog" aria-labelledby="modal_review">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">CLIENT REVIEWS</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row profile">
+                        <div class="col-md-2 ">
+                            <img class="img img-circle img-responsive" src="assets/img/profile-mitchell.png">
+                        </div>
+                        <div class="col-md-10">
+                            <h4 class="profile_name">Brigida R.</h4>
+                            <p class="profile_address text-muted">Dallas, TX</p>
+                            <p class="profile_case">Family Law</p>
+                        </div>
+                    </div><!--/.profile -->
+                    <div class="row rating">
+                        <div class="col-md-12 ">
+                            <h4 class="pull-left">Rating <small>(29 Users)</small></h4>
+                            <div class="pull-left">
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star"></i>
+                            </div>
+                        </div>
+                    </div><!--/.rating -->
+                    <div class="row all_ratings">
+                        <div class="col-md-12">
+                            <div class="col-md-8">
+                                <b>Overall</b>
+                            </div>
+                            <div class="col-md-4">
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="col-md-8">
+                                Responded in a timely manner
+                            </div>
+                            <div class="col-md-4">
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="col-md-8">
+                                Answered questions clearly
+                            </div>
+                            <div class="col-md-4">
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star"></i>
+                                <i class="glyphicon glyphicon-star"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="col-md-8">
+                                Understood needs
+                            </div>
+                            <div class="col-md-4">
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="col-md-8">
+                                Gave complete and clear information
+                            </div>
+                            <div class="col-md-4">
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="col-md-8">
+                                Knowledgeable in legal area
+                            </div>
+                            <div class="col-md-4">
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="col-md-8">
+                                Good value for money
+                            </div>
+                            <div class="col-md-4">
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="col-md-8">
+                                Would hire again
+                            </div>
+                            <div class="col-md-4">
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="col-md-8">
+                                Would recommend to friend
+                            </div>
+                            <div class="col-md-4">
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                            </div>
+                        </div>
+                    </div><!--/.all_ratings -->
+                    <div class="reviewer">
+                        <div class="col-md-12">
+                            
+                            <h4>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star ratings-on"></i>
+                                <i class="glyphicon glyphicon-star"></i>
+                                by Dexter Marchal, 06/10/2016
+                            </h4>
+                            <p>Deb did a great job. Got my bench warrant set aside ... was sure I was going to jail ... phew. Judge seemed to respect her and I got what I </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn" data-dismiss="modal">CLOSE</button>
                 </div>
             </div>
         </div>

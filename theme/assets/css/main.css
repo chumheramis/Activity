@@ -13,7 +13,7 @@
 }
 @font-face{
     font-family: 'gotham-bold';
-    src: url('../fonts/gothem-bold.otf');
+    src: url('../fonts/gotham-bold.otf');
 }
 @font-face{
     font-family: 'gotham-book-italic';
@@ -117,19 +117,6 @@ hr {
     color: #00367c;
 }
 
-.btn-theme {
-    color: #ffffff;
-    background-color: #74cfae;
-    border-color: transparent;
-}
-
-.btn {
-    padding: 10px 30px;
-    margin-bottom: 0;
-    font-size: 18px;
-    border: 5px solid transparent;
-    border-radius: 0px;
-}
 
 .lead {
     letter-spacing: 1px;
@@ -326,4 +313,103 @@ hr {
     #footer .nav li a:before{
         display: none;
     }
+}
+.modal-header .modal-title{
+    font-family: 'gotham-book';
+}
+.modal-body b{
+    font-family: 'gotham-bold';
+}
+.modal-body p{
+    font-family: 'gotham-book';
+}
+.modal-body label{
+    font-family: 'gotham-book';
+}
+.modal-body a{
+    font-family: 'gotham-book';
+    color: #1864af;
+}
+.modal-body button{
+    font-family: 'gotham-bold';
+    border-radius: 20px;
+    background-color: #02377b;
+}
+
+
+
+
+
+.modal_review{
+
+}
+.modal_review .modal-body .profile{
+    border-top: 1px solid #000;
+    padding-top: 10px;
+}
+.modal_review .modal-body .profile .profile_name{
+    font-family: 'gotham-book';
+    font-size: 30px;
+}
+
+.modal_review .modal-body .profile .profile_address{
+    font-family: 'gotham-book';
+    font-size: 16px;
+    margin-bottom: 0px;
+    line-height: 1;
+}
+.modal_review .modal-body .profile .profile_address{
+    font-family: 'gotham-book';
+    font-size: 16px;
+    margin-bottom: 0px;
+    line-height: 1;
+}
+.modal_review .modal-body .profile .profile_case{
+    margin-bottom: 5px;
+    line-height: 2;
+}
+.modal_review .modal-body .rating{
+    border-bottom: 1px solid black;
+}
+.modal_review .modal-body .rating h4{
+    font-family: 'gotham-book';
+    margin-top: -1px;
+}
+.modal_review .modal-body .rating div{
+    margin-left: 10px;
+    margin-top: 0px;
+}
+.modal_review .modal-body .all_ratings{
+    margin-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+.modal_review .modal-body{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+}
+.modal_review .modal-body .reviewer{
+    margin-top: 15px;
+}
+.modal_review .modal-body .reviewer h4{
+    font-family: 'gotham-bold';
+    font-size: 14px;
+}
+.modal_review .modal-body .reviewer p{
+    font-family: 'gotham-book';
+    font-size: 14px;
+}
+.modal_review .modal-footer{
+    margin-top: 0px;
+    padding: 8px 20px 8px;
+    border-top: none;
+}
+.modal_review .modal-footer .btn{
+    background-color: transparent;
+    color: #0000ff;
+}
+.ratings-on{
+    color: #d69024;
 }
